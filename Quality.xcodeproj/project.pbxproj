@@ -13,8 +13,8 @@
 		05210CC21F91B60100028249 /* Quality.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 05210CC01F91B60100028249 /* Quality.xcdatamodeld */; };
 		05210CC41F91B60100028249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05210CC31F91B60100028249 /* Assets.xcassets */; };
 		05210CC71F91B60100028249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05210CC51F91B60100028249 /* LaunchScreen.storyboard */; };
-		05210CD21F91B60100028249 /* QualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05210CD11F91B60100028249 /* QualityTests.swift */; };
 		05210CDD1F91B60100028249 /* QualityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05210CDC1F91B60100028249 /* QualityUITests.swift */; };
+		0572468E1F928E2500C7D834 /* LableSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572468B1F928DC900C7D834 /* LableSpec.swift */; };
 		89EEAB374A36835AFB84CA40 /* Pods_QualityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1359AFF6A28276489F561E7A /* Pods_QualityUITests.framework */; };
 		E8B1A7B1FA7E1A6548FD3381 /* Pods_Quality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682F35CFB24E2A8BA33EB494 /* Pods_Quality.framework */; };
 		EF02D3DA4C17FBB8C9055C41 /* Pods_QualityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9C4A53CB5BD1F206B4101F /* Pods_QualityTests.framework */; };
@@ -48,11 +48,11 @@
 		05210CC61F91B60100028249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05210CC81F91B60100028249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05210CCD1F91B60100028249 /* QualityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QualityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		05210CD11F91B60100028249 /* QualityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualityTests.swift; sourceTree = "<group>"; };
 		05210CD31F91B60100028249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05210CD81F91B60100028249 /* QualityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QualityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05210CDC1F91B60100028249 /* QualityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QualityUITests.swift; sourceTree = "<group>"; };
 		05210CDE1F91B60100028249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0572468B1F928DC900C7D834 /* LableSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LableSpec.swift; sourceTree = "<group>"; };
 		1359AFF6A28276489F561E7A /* Pods_QualityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QualityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		161487A677C4A77F7D386A4B /* Pods-QualityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QualityTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QualityTests/Pods-QualityTests.release.xcconfig"; sourceTree = "<group>"; };
 		4C8A3FA5D8D98B1018E6BD73 /* Pods-QualityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QualityTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QualityTests/Pods-QualityTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		05210CD01F91B60100028249 /* QualityTests */ = {
 			isa = PBXGroup;
 			children = (
-				05210CD11F91B60100028249 /* QualityTests.swift */,
+				0572468B1F928DC900C7D834 /* LableSpec.swift */,
 				05210CD31F91B60100028249 /* Info.plist */,
 			);
 			path = QualityTests;
@@ -467,7 +467,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05210CD21F91B60100028249 /* QualityTests.swift in Sources */,
+				0572468E1F928E2500C7D834 /* LableSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
