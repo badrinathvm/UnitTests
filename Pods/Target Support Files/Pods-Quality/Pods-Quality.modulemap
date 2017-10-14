@@ -1,0 +1,6 @@
+framework module Pods_Quality {
+  umbrella header "Pods-Quality-umbrella.h"
+
+  export *
+  module * { export * }
+}
