@@ -5,8 +5,10 @@ target 'Quality' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-pod 'Nimble', :git => 'https://github.com/Quick/Nimble.git'
-pod 'Quick', :git => 'https://github.com/hashier/Quick.git', :branch => 'swift-4'
+pod 'Quick', '1.2.0'
+pod 'Nimble','7.0.2'
+
+#pod 'Nimble', :git => 'https://github.com/Quick/Nimble.git'
 
   # Pods for Quality
 
